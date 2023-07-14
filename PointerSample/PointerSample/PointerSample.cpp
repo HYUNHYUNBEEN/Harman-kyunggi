@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int i = 1;
 	float a = 2.0;
 	double d = 3.14;
-	void *p = malloc(1000); //(void*) buf//0x80000000
+	void *p = malloc(100); //(void*) buf//0x80000000
 	
 	*(double *)p = d;
 
